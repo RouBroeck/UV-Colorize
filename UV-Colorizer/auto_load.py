@@ -109,6 +109,7 @@ def iter_my_deps_from_parent_id(cls, my_classes_by_idname):
             parent_cls = my_classes_by_idname.get(parent_idname)
             if parent_cls is not None:
                 yield parent_cls
+                
 
 def iter_my_classes(modules):
     base_types = get_register_base_types()

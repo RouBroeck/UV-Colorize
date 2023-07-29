@@ -2,6 +2,7 @@ import bpy
 import bmesh
 from random import uniform
 from .uv_colorize_palette_picker import palette_picker
+import bpy.utils.previews
 
 class colorize_panel(bpy.types.Panel):
     bl_idname = "UV_COLORIZE_PT_panel"

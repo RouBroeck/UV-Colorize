@@ -12,14 +12,14 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 bl_info = {
-    "name" : "UVColorize",
+    "name" : "UV-Colorizer",
     "author" : "Rouven Bröckelmann",
-    "description" : "",
+    "description" : "Colorize with texture-based color palettes and zero-scaled UVs",
     "blender" : (2, 80, 0),
     "version" : (0, 0, 1),
     "location" : "",
     "warning" : "",
-    "category" : "Generic"
+    "category" : "UV"
 }
 
 from . import auto_load
