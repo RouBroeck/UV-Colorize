@@ -22,12 +22,14 @@ bl_info = {
     "category" : "UV"
 }
 
-from . import auto_load
+from . import common
 
-auto_load.init()
+modules = (common, )
 
 def register():
-    auto_load.register()
+    for module in modules:
+        module.register()
 
 def unregister():
-    auto_load.unregister()
+    for module in reversed(modules):
+        module.unregister()
