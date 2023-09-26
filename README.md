@@ -8,16 +8,16 @@ First of all about the developer: Since I'm currently still studying, this proje
 ## Getting Started
 
 ### Dependencies
-tested on Blender 3.6 and Windows 11 (10.0.22621 Build 226)
+Tested on Blender 3.6 and Windows 11 (10.0.22621 Build 226)
 
 ### Installing
-* Download the plugin zip:
+* Download the latest [release](https://github.com/RouBroeck/UV-Colorize/releases) plugin zip
 * Open Blender and navigate to Edit -> Preferences -> Add-ons
 * Click on "Install..." and choose the zip
 
 ### How to use
-* The UV-Colorize tab will apear on the site (short-cut N)
-* Simply create a palette Texture and create a new Material with the texture
+* The UV-Colorize tab will apear on the site (shortcut "N")
+* Simply create a new palette-material and add a palette-texture
 
 ## Authors
 [@RouBroeck](https://github.com/RouBroeck)
